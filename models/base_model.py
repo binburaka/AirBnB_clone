@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Defines a BaseModel class"""
+import models
 from uuid import uuid4
 from datetime import datetime
 
@@ -28,10 +29,12 @@ class BaseModel:
             self.id = str(uuid4())
             self.created_at = datetime.now()
             self.updated_at = datetime.now()
+            models.storage.new(self)
 
     def save(self):
         """Updates the attr updated_at with the current datetime"""
         self.updated_at = datetime.now()
+        models.storage.save()
 
     def to_dict(self):
         """returns dictionary containing all keys/values of BaseModel
