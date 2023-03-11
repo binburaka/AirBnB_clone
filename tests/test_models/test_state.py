@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
 """Defines unittests for models/state.py modeule"""
 import os
 import models

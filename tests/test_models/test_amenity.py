@@ -8,6 +8,7 @@ from datetime import datetime
 from time import sleep
 from models.amenity import Amenity
 
+
 class Test_instantiation_Amenity(unittest.TestCase):
     """tests the instantiation of the Amenity class"""
 
