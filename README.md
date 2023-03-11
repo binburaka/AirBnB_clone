@@ -1,9 +1,9 @@
 # AirBnB clone - The console
 
 ## Table of contents 
--------- | -----------
 
 * [0x01 Introduction](#0x01-Introduction) | Description of the project
+----- | -------
 * [0x02 Environment](#0x02-Environment) | Different environments utilised for the implementation of this program
 * [0x03 Installation](#0x03-Installation) | How to install the progam on your local machine
 * [0x04 Testing](#0x04-Testing) | unittests and how to run them
@@ -232,7 +232,7 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
 ## Authors
 
 * **Adegbiran-Ayinoluwa Paul**
- * adegbiranayinoluwa.paul@yahoo.com
+  * adegbiranayinoluwa.paul@yahoo.com
 
-* ** Victor Buraka**
- * ushindiburaka@gmail.com
+* **Victor Buraka**
+  * ushindiburaka@gmail.com
