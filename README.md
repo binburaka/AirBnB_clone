@@ -2,13 +2,13 @@
 
 ## Table of contents 
 
-* [0x01 Introduction](#0x01-Introduction) | Description of the project
+[0x01 Introduction](#0x01-Introduction) | Description of the project
 ----- | -------
-* [0x02 Environment](#0x02-Environment) | Different environments utilised for the implementation of this program
-* [0x03 Installation](#0x03-Installation) | How to install the progam on your local machine
-* [0x04 Testing](#0x04-Testing) | unittests and how to run them
-* [0x05 Usage](#0x05-Usage) | How to use the console
-* [0x06 Authors](#0x06-Authors) | Authors that worked on this program
+[0x02 Environment](#0x02-Environment) | Different environments utilised for the implementation of this program
+[0x03 Installation](#0x03-Installation) | How to install the progam on your local machine
+[0x04 Testing](#0x04-Testing) | unittests and how to run them
+[0x05 Usage](#0x05-Usage) | How to use the console
+[0x06 Authors](#0x06-Authors) | Authors that worked on this program
 
 ## 0x01 Introduction
 
