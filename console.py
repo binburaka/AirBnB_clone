@@ -31,7 +31,6 @@ def parse(arg):
         return retl
 
 
-
 class HBNBCommand(cmd.Cmd):
     """Defines the HolbertonBnB command interpreter
 
