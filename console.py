@@ -10,7 +10,8 @@ from models.state import State
 from models.city import City
 from models.place import Place
 from models.amenity import Amenity
-from models.review import 
+from models.review import Review
+
 
 def parse(arg):
     curly_braces = re.search(r"\{(.*?)\}", arg)
@@ -27,7 +28,8 @@ def parse(arg):
         lexer = split(arg[:curly_braces.span()[0]])
         retl = [i.strip(",") for i in lexer]
         retl.append(curly_braces.group())
-        return ret1
+        return retl
+
 
 class HBNBCommand(cmd.Cmd):
     """Defines the HolbertonBnB command interpreter
@@ -131,7 +133,7 @@ class HBNBCommand(cmd.Cmd):
     def do_all(self, arg):
         """Usage: all or all <class> or <class>.all()
         Display string representations of all instances of a given class.
-        If no class is specified, displays all instantiated objects"""
+        If no class is specified, displays all instantiated objects."""
         argl = parse(arg)
         if len(argl) > 0 and argl[0] not in HBNBCommand.__classes:
             print("** class doesn't exist **")
